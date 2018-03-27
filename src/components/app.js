@@ -12,8 +12,9 @@ export default class App extends Component {
               </div>
             
                 </div>
-                <div className= 'backgroundSkew-2'>
-                </div>
+
+            </div>
+            <div className= 'backgroundSkew-2'>
             </div>
         </div>
     );

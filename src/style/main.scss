@@ -29,13 +29,33 @@ html {
     transform: skewY(7deg)
 }
 
+// .backgroundSkew-2 {
+//     width: 100px;
+//     height: 100vw;
+//     background-color: #00004d;
+//     transform: skewX(60deg);
+//     margin-left: 85rem;
+//     margin-top: -35rem;
+// }
+
 .backgroundSkew-2 {
-    width: 100px;
-    height: 100vw;
+    // width: 100px;
+    // height: 220%;
+    // background-color: #00004d;
+    // transform: skewX(60deg);
+    // margin-right: 120rem;
+    // margin-top: -35rem;
+
+    width: 100vw;
+    height: 100vh;
     background-color: #00004d;
-    transform: skewX(60deg);
-    margin-left: 85rem;
-    margin-top: -35rem;
+    // margin-top: 8rem;
+    // padding-top: -100rem;
+    clip-path: polygon(0 0, 100% 20%, 100% 30%, 0 10%);
+    position: absolute;
+    transform: rotate(10deg) translate(-50%, -35%);
+    left: 50%;
+    top: 50%;
 }
 
 .test-heading{
