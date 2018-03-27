@@ -17,7 +17,7 @@ html {
 }
 
 .backgroundSkew {
-    width: 100vw;
+    width: 107vw;
     height: 300px;
     background-color: #444444;
     transform: skewY(-7deg); 
@@ -49,13 +49,13 @@ html {
     width: 100vw;
     height: 100vh;
     background-color: #00004d;
-    // margin-top: 8rem;
+    margin-top: -10rem;
     // padding-top: -100rem;
     clip-path: polygon(0 0, 100% 20%, 100% 30%, 0 10%);
     position: absolute;
-    transform: rotate(10deg) translate(-50%, -35%);
+    transform: rotate(16deg) translate(-50%, -35%);
     left: 50%;
-    top: 50%;
+    top: 65%;
 }
 
 .test-heading{
